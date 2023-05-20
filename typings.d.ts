@@ -8,8 +8,8 @@ interface CurrentWeather {
 }
 
 interface Daily {
-  apparent_temperature_max: number[]
-  apparent_temperature_min: number[]
+  apparent_temperature_max: number[];
+  apparent_temperature_min: number[];
   sunrise: string[];
   sunset: string[];
   temperature_2m_max: number[];
@@ -18,6 +18,23 @@ interface Daily {
   weathercode: number[];
   uv_index_clear_sky_max: number[];
   uv_index_max: number[];
+}
+
+interface Hourly {
+  apparent_temperature: number[];
+  dewpoint_2m: number[];
+  precipitation: number[];
+  precipitation_probability: number[];
+  rain: number[];
+  relativehumidity_2m: number[];
+  showers: number[];
+  snow_depth: number[];
+  snowfall: number[];
+  temperature_2m: number[];
+  time: [DateTime];
+  uv_index: number[];
+  uv_index_clear_sky: number[];
+  windgusts_10m: number[];
 }
 
 interface DailyUnits {
@@ -45,6 +62,7 @@ interface Root {
   daily: Daily;
   daily_units: DailyUnits;
   hourly_units: HourlyUnits;
+  hourly: Hourly;
   latitude: number;
   longitude: number;
   timezone: string;
