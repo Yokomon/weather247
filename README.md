@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project name
+Weather 247
 
-## Getting Started
+## Description
 
-First, run the development server:
+This project is a weather reports application built with Next.js 13.4, Typescript, Stepzen, and Tailwind CSS. It allows users to obtain up-to-date weather information for different locations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The application fetches weather data from a reliable source and provides users with a user-friendly interface to view and interact with the data. Users can search for weather reports by location, and the application displays the current weather conditions, temperature, humidity, wind speed, and other relevant details.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project utilizes Next.js, a popular React framework, to create a fast and efficient web application with server-side rendering capabilities. Typescript is used to ensure type safety and enhance the developer experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Stepzen is employed as the API integration tool, which facilitates seamless data retrieval and management from the weather API. Tailwind CSS is used for styling the application, providing a responsive and visually appealing user interface.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- Search for weather reports by location
+- Display current weather conditions, temperature, humidity, and wind speed
+- Responsive design for optimal viewing on various devices
+- Server-side rendering for improved performance
+- Type-safe development experience with Typescript
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To install and run this project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository: `git clone https://github.com/Yokomon/weather247.git`
+2. Navigate to the project directory: `cd weather247`
+3. Install the dependencies: `yarn install`
+4. Set up the necessary environment variables (API keys, etc.) in a `.env` file. You can refer to the `.env.example` file for the required variables.
+5. Build the project: `yarn build`
+6. Start the development server: `yarn dev`
+7. Open your browser and visit: `http://localhost:3000`
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Once the project is up and running, you can access the weather report application by visiting `http://localhost:3000` in your web browser. Enter the desired location in the search bar to retrieve the weather report for that location. The application will display the current weather conditions along with relevant details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to explore the different features and interact with the application to obtain weather reports for various locations.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue on the project's GitHub repository. If you'd like to contribute directly, you can fork the repository, create a new branch, commit your changes, and open a pull request.
+
+Please ensure that your code follows the project's coding standards and includes appropriate tests when applicable.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+- Sonny Sangha - [Sonny Sangha](https://https://www.youtube.com/@SonnySangha)
+- Next.js - [https://nextjs.org](https://nextjs.org)
+- Stepzen - [https://stepzen.com](https://stepzen.com)
+- Tailwind CSS - [https://tailwindcss.com](https://tailwindcss.com)
+
+Special thanks to the contributors of the open-source libraries and tools used in this project.
+
+## Contact
+
+For any questions or inquiries, please contact [marowmacaulay@gmail.com]
+
+Enjoy using the Weather247 application!
