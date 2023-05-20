@@ -1,6 +1,10 @@
 import CityPicker from "@/components/CityPicker";
 import { Card, Divider, Text, Subtitle } from "@tremor/react";
 
+export const metadata = {
+  title: "Weather 247",
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen p-4 sm:p-10 bg-gradient-to-br from-slate-400 flex items-center justify-center to-gray-200">
@@ -12,7 +16,7 @@ export default function Home() {
           Powered by OpenAI, Next.js 13.4, Tailwind CSS 3.3, Tremor 2.6 + More
         </Subtitle>
         <Divider className="my-4 sm:my-10" />
-        <Card className=" bg-gradient-radial from-slate-300 to-gray-400">
+        <Card className="bg-gradient-to-br text-slate-100 from-[#375374] to-slate-800 ">
           <CityPicker />
         </Card>
       </Card>
