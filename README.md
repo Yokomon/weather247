@@ -48,7 +48,7 @@ Please ensure that your code follows the project's coding standards and includes
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
-- Sonny Sangha - [Sonny Sangha](https://https://www.youtube.com/@SonnySangha)
+- Sonny Sangha - [Sonny Sangha](https://www.youtube.com/@SonnySangha)
 - Next.js - [https://nextjs.org](https://nextjs.org)
 - Stepzen - [https://stepzen.com](https://stepzen.com)
 - Tailwind CSS - [https://tailwindcss.com](https://tailwindcss.com)
