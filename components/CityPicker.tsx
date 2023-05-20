@@ -72,13 +72,14 @@ export default function CityPicker() {
   return (
     <div className="space-y-4">
       <div className="space-y-2">
-        <div className="flex items-center space-x-2 text-gray-600">
-          <GlobeIcon className="h-5 w-5 text-black" />
+        <div className="flex items-center space-x-2">
+          <GlobeIcon className="h-5 w-5" />
           <label htmlFor="country" className="text-sm">
             Country
           </label>
         </div>
         <Select
+          className="text-black"
           classNames={{
             control: () => "!cursor-pointer",
           }}
@@ -89,13 +90,14 @@ export default function CityPicker() {
       </div>
       {selectedCountry && (
         <div className="space-y-2">
-          <div className="flex items-center space-x-2 text-gray-600">
-            <GlobeIcon className="h-5 w-5 text-black" />
+          <div className="flex items-center space-x-2">
+            <GlobeIcon className="h-5 w-5" />
             <label htmlFor="country" className="text-sm">
               City
             </label>
           </div>
           <Select
+            className="text-black"
             classNames={{
               control: () => "!cursor-pointer",
             }}
